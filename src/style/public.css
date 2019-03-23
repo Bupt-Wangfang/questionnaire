@@ -1,0 +1,91 @@
+.show {
+  display: block;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.overlay .prompt-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 32rem;
+  height: 18rem;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 5px #ccc;
+}
+
+.overlay .prompt-box header {
+  display: flex;
+  height: 4rem;
+  padding: 0 2rem;
+  font-weight: 700;
+  line-height: 4rem;
+  background-color: #f2f2f2;
+  justify-content: space-between;
+}
+
+.overlay .prompt-box header a {
+  color: #555;
+}
+
+.overlay .prompt-box header a:hover {
+  color: #768069;
+}
+
+.overlay .prompt-box p {
+  padding: 3rem 2rem 4rem 2rem;
+}
+
+.overlay .prompt-box footer {
+  text-align: center;
+}
+
+.overlay .prompt-box footer span {
+  display: inline-block;
+  width: 7.5rem;
+  height: 2.5rem;
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.overlay .prompt-box footer span:hover {
+  color: #fff;
+  border-color: #fce6ca;
+  background-color: #768069;
+  box-shadow: 0 0 8px #768069;
+}
+
+.overlay .prompt-box footer span {
+  width: 7rem;
+  margin: .5rem;
+}
+
+.overlay .prompt-box footer span:nth-of-type(1) {
+  color: #fff;
+  border-color: #fce6ca;
+  background-color: #768069;
+}
+
+.overlay .prompt-box footer span:nth-of-type(2) {
+  color: #555;
+  background-color: #fff;
+}
+
+.overlay .prompt-box footer span:nth-of-type(2):hover {
+  border-color: #ccc;
+  box-shadow: 0 0 8px #ccc;
+}
